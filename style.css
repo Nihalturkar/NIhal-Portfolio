@@ -128,14 +128,13 @@ html,body {
 }
 
 .navbar{
-    position: fixed;
     width: 100%;
-    margin: auto;
-    padding: 35px 100px;
+    padding: 15px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 999;
+    background-color: #ffffff96;
 }
 .navbar.sticky{
     padding: 10px 100px;
@@ -525,7 +524,7 @@ svg img{
 }
 
 .lang:hover .lang_inner {
-    transform: rotateY(180deg);
+    transform: rotateY(90deg);
 }
 
 .lang_body {

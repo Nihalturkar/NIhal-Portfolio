@@ -75,6 +75,12 @@ slidesSkewMaker();
 gsap.registerPlugin(ScrollTrigger);
 var tl = gsap.timeline({})
 
+gsap.from(".showcase-img", {
+    opacity:0,
+    x:"50%",
+    duration:1.1
+  
+  });
 gsap.from(".about .about-content .column", {
     opacity:0,
     scale:0,
