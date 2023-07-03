@@ -1,6 +1,5 @@
 
 
-
 $(document).ready(function () {
 
     $(window).scroll(function () {
@@ -131,4 +130,3 @@ close.addEventListener("click",function(){
     menu.style.display="flex"
     close.style.display="none"
 })
-
