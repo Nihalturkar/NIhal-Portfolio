@@ -19,6 +19,8 @@
     font-weight: 800;
 
 }
+
+
 /* loderpage ----------------========================= */
 .loader{
     width: 100%;
@@ -31,7 +33,7 @@
     position: absolute;
     top: 0%;
     left: 0%;
-    z-index: 999;
+    z-index: 99999;
     transition:.5s ease-in ;
 }
 .dizzy-gillespie {
@@ -263,71 +265,6 @@ section{
     border-bottom: 2px solid #FEC544;
 }
 
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 25px;
-    border: 1px solid #FEC544;
-    border-radius: 15px;
-    padding: 6px 0px;
-
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #b90101;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
 
 /* Showcase content section */
 .showcase-content{
@@ -361,7 +298,7 @@ section{
 }
 .showcase-img{
     width:25vw ;
-    height: 45vw;
+    height: 40vw;
     position: relative;
     margin: 5% 15%;
 }
@@ -371,14 +308,6 @@ section{
     object-fit: contain;
     opacity: .9;
     /* overflow: hidden; */
-}
-
-svg img{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    bottom: 0;
-    left: 0;
 }
 
 /* About section content */
@@ -1133,7 +1062,7 @@ svg img{
         font-weight: 700;
     }
     .showcase-text .text-3 {
-        font-size: 30px;
+        font-size: 20px;
         margin: 5px 0;
         font-weight: 700;
     }
@@ -1142,7 +1071,7 @@ svg img{
     }
     .showcase-img {
         width: 40vw;
-        height: 169vw;
+        height: 159vw;
         position: relative;
         margin: 62% 31%;
     }
@@ -1218,6 +1147,12 @@ svg img{
         width: 340px;
         margin-left: -20%;
     
+    }
+    .certificate{
+        height: 70vh;
+    }
+    .certificate h1{
+ font-size: 48px;
     }
 
 

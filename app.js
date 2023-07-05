@@ -1,27 +1,13 @@
 
 function greet() {
-document.querySelector(".loader").style.top = "-100%"
-document.querySelector(".loader").style.transition = ""
+document.querySelector(".loader").style.top = "-200%"
 }
 
-setTimeout(greet, 2000);
+setTimeout(greet, 1000);
+
+
 
 // ======================================
-
- var flag=0;
-
-document.querySelector(".switch").addEventListener("click",function(){
-    if (flag === 0){
-        document.documentElement.style.setProperty('--main-color', '#000');
-        document.documentElement.style.setProperty('--font-color', '#fff');
-        flag=1;
-    }
-    else{
-        document.documentElement.style.setProperty( '--main-color');
-
-        flag = 0;
-    }
-})
 
 
 
@@ -40,7 +26,7 @@ $(document).ready(function () {
 // ==========================================
 var typed = new Typed(".typing-1", {
     strings: [
-        "Frontend developer", "UI developer", "Python developer"
+        "Frontend developer", "Back-end developer", "UI developer"
     ],
     typeSpeed: 100,
     backSpeed: 60,
@@ -48,7 +34,7 @@ var typed = new Typed(".typing-1", {
 });
 var typed = new Typed(".typing-2", {
     strings: [
-        "Frontend,developer", "UI developer", "Python developer"
+        "Frontend,developer", "UI developer", "Back-end developer"
     ],
     typeSpeed: 100,
     backSpeed: 60,
